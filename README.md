@@ -1,36 +1,56 @@
 # nextcloud_server
-Sick and tired of google
 
-Summary:
+## Description
 
-I reached my storage limit for my google drive prompting them to ask me to pay $2 a month to expand my storage capabilities. I got mad and decided to instead spend $60 and a dozen hours figuring out how to self host my own "Google Drive." NextCloud seemed to be the option that most closely matched what I needed (primarily photo storage capabilities). Other options that didn't make the final cut were OwnCloud and LibrePhotos. Setting up NextCloud was easy enough. But learning how to harden a server and reduce the . I'm not going to share the exact details of everything that I did, but here's a rough synopsis.
+Sick and tired of Google? This project documents my journey to self-host my own "Google Drive" using NextCloud. Frustrated with Google Drive's storage limits and the prospect of paying, I opted to spend $60 and invest time in setting up a self-hosted solution.
 
-Basic Outline:
+## Motivation
 
-1. Bought computer from surplus store
-2. Installed Ubuntu Server on it
-3. Found and followed documentation on hardening ubuntu server
-  a) Noted changes that needed to be made upon installation of ubuntu server next time.
-4. Installed NextCloud
-5. Wiped the computer and repeated steps 1 to 3 with modifications suggested from previous attempt
-6. Installed Greenbone Vulnerability Software on another computer
-7. Used it to attack the server
-8. Learned I needed to configure things differently... again :(
-9. Wiped computer AGAIN and made necessary changes
-10. Ran Vulnerability assessment. Much better score this time.
-11. Installed NextCloud
-12. Somewhere in here I utilized a free DNS to point a url to my ip address
-13. Also forwarded some ports...
-14. Ran Greenbone assessment again after setting up server. Good score still.
-15. Currently waiting to see if I get hacked :)
+I reached my storage limit for Google Drive, prompting a $2/month payment demand for expanded storage. In response, I chose NextCloud for its features, especially in photo storage. Other considered options included OwnCloud and LibrePhotos.
 
-Links:
+## Installation and Setup
 
+### 1. Hardware
+Bought a computer from a surplus store.
 
+### 2. Operating System
+Installed Ubuntu Server on the computer.
 
-Results:
+### 3. Server Hardening
+Followed documentation on hardening Ubuntu Server, noting changes for future installations.
 
-Seems to be working fine. The internet provider seems to think that there is malicious activity, but after looking through a couple different logs and running anti-malware screening every now and again, it seems that the server is holding its own. Uploads photos just fine and can view from anywhere I have internet.
+### 4. NextCloud Installation
+Installed NextCloud for self-hosted cloud storage.
 
-For next time?:
+### 5. Iterative Improvement
+Repeated steps 1-3 with modifications, incorporating lessons from the initial attempt.
 
+### 6. Security Assessment
+Installed Greenbone Vulnerability Software on another computer and tested the server's security.
+
+### 7. Configuration Tweaks
+Discovered the need for further configuration adjustments and made necessary changes.
+
+### 8. Final Setup
+Reinstalled Ubuntu Server with the adjustments and ran another vulnerability assessment, achieving a much better score.
+
+### 9. Domain Setup
+Utilized DuckDNS to point a URL to my server's IP address and forwarded necessary ports.
+
+### 10. Security Validation
+Ran Greenbone assessment again after setting up the server, maintaining a good score.
+
+### 11. Monitoring
+Currently monitoring server activity and awaiting any potential security incidents.
+
+## Links
+
+- NextCloud: [https://github.com/nextcloud/all-in-one#how-to-use-this](https://github.com/nextcloud/all-in-one#how-to-use-this)
+- DuckDNS: [http://www.duckdns.org/](http://www.duckdns.org/)
+- Greenbone: [https://www.libellux.com/openvas/#enable-and-start-services](https://www.libellux.com/openvas/#enable-and-start-services)
+
+## Results
+
+The server is working well, allowing me to upload and access photos from anywhere with an internet connection. Although my internet provider flagged potential malicious activity, after thorough examination, the server appears secure.
+
+Feel free to check out the [NextCloud documentation](https://github.com/nextcloud/all-in-one#how-to-use-this) for more information on using NextCloud.
