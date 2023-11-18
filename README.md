@@ -2,11 +2,11 @@
 
 ## Description
 
-Sick and tired of Google? This project documents my journey to self-host my own "Google Drive" using NextCloud. Frustrated with Google Drive's storage limits and the prospect of paying, I opted to spend $60 and invest time in setting up a self-hosted solution.
+My Process for avoiding paying $2 a month to google like the petty person I am.
 
 ## Motivation
 
-I reached my storage limit for Google Drive, prompting a $2/month payment demand for expanded storage. In response, I chose NextCloud for its features, especially in photo storage. Other considered options included OwnCloud and LibrePhotos.
+I reached my storage limit for my google drive prompting them to ask me to pay $2 a month to expand my storage capabilities. I got mad and decided to instead spend $60 and a dozen hours figuring out how to self host my own "Google Drive." NextCloud seemed to be the option that most closely matched what I needed (primarily photo storage capabilities). Other options that didn't make the final cut were OwnCloud and LibrePhotos. Setting up NextCloud was easy enough. But learning how to harden a server and reduce the chances of being broken into was more difficult than I thought it would be. I'm not going to share the exact details of everything that I did, but here's a rough synopsis.
 
 ## Installation and Setup
 
@@ -53,4 +53,4 @@ Currently monitoring server activity and awaiting any potential security inciden
 
 The server is working well, allowing me to upload and access photos from anywhere with an internet connection. Although my internet provider flagged potential malicious activity, after thorough examination, the server appears secure.
 
-Feel free to check out the [NextCloud documentation](https://github.com/nextcloud/all-in-one#how-to-use-this) for more information on using NextCloud.
+Formatted by ChatGPT
