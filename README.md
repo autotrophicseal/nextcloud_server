@@ -2,7 +2,7 @@
 
 ## Description
 
-My Process for avoiding paying $2 a month to google like the petty person I am.
+My Process for avoiding paying $2 a month to google
 
 ## Motivation
 
